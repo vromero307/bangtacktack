@@ -72,6 +72,24 @@ Grid
 }
 
 /*
+=========
+Clearfix
+=========
+*/
+.group:before
+.group:after {
+	content: ""
+	display: table;
+}
+.group:after {
+	clear: both;
+}
+.group {
+	clear: both;
+	*zoom: 1;
+}
+
+/*
 ==========
 Typography
 ==========
@@ -108,7 +126,29 @@ Home
 	padding: 22px 80px 66px 80px;
 }
 	
-		
+section {
+	float:left;
+	margin: 0 1.5%;
+	width: 63%;
+}
+aside {
+	float: right;
+	margin: 0 1.5%;
+	width: 30%;
+}
+
+/*
+==============
+Primary header
+==============
+*/
+
+.logo {
+	float: left;
+}
+
+
+
 
 
 
