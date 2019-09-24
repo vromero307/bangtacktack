@@ -162,7 +162,11 @@ Primary footer
 	padding-top: 44px;
 }
 	
-	
+section {
+	display: inline-block;
+	margin: 0 1.5%;
+	width: 30%;
+}
 
 
 
