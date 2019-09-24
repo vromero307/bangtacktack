@@ -144,6 +144,8 @@ Primary header
 */
 
 .logo {
+	border-top: 4px solid #648880;
+	padding: 40px 0 22px 0;
 	float: left;
 }
 
