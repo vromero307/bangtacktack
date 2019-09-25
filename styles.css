@@ -51,6 +51,7 @@ table {
   padding:0px;
 }
 
+
 /*
 ============
 Grid
@@ -74,6 +75,7 @@ Grid
 	padding-right: 30px;
 }
 
+
 /*
 =========
 Clearfix
@@ -91,6 +93,7 @@ Clearfix
 	clear: both;
 	*zoom: 1;
 }
+
 
 /*
 ==========
@@ -143,7 +146,7 @@ Custom Styles
 */
 body {
 	color: #888;
-	font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 300 16px/22px "Notable", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 
@@ -197,6 +200,7 @@ Home
 }
 .hero p {
 	font-size: 24px;
+	font-weight: 100;
 }
 section {
 	float:left;
@@ -230,8 +234,11 @@ Primary header
 	border-top: 4px solid #648880;
 	float: left;
 	font-size: 48px;
+	font-weight: 100;
+	letter-spacing: .5px;
 	line-height: 44px;
-	padding: 40px 0 22px 0;	
+	padding: 40px 0 22px 0;
+	text-transform: uppercase;
 }
 .tagline {
 	margin: 66px 0 22px 0;
