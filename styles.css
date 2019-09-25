@@ -124,6 +124,7 @@ h5 {
 	color: #a9b2b9;
 	font-size: 14px;
 	font-weight: 400;
+	text-transform: uppercase;
 }
 strong {
 	font-weight: 400;
@@ -152,7 +153,11 @@ a:hover {
 	color: #a9b2b9;
 }
 a {
-	color: #648880
+	color: #648880;
+	text-decoration: none;
+}
+p a {
+	border-bottom: 1px solid #dfe2e5
 }
 
 
@@ -215,10 +220,13 @@ Primary header
 }
 .tagline {
 	margin: 66px 0 22px 0;
+	text-align: right;
 }
 .primary-nav {
 	font-size: 14px;
 	font-weight: 400;
+	letter-spacing: .5px;
+	text-transform: uppercase;
 }
 
 /*
