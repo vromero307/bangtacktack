@@ -205,6 +205,17 @@ aside {
 	width: 30%;
 }
 
+
+/*
+==============
+Navigation
+==============
+*/
+.nav {
+	text-align: right;
+}
+
+
 /*
 ==============
 Primary header
